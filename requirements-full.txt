@@ -1,0 +1,8 @@
+# Full installation with all optional dependencies
+-r requirements.txt
+
+# Optional: Fuzzy logic support
+scikit-fuzzy>=0.4.2
+
+# Optional: Optimization methods
+cvxopt>=1.2.0
