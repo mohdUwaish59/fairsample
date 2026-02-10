@@ -121,8 +121,8 @@ MIT License
 ```bibtex
 @software{fairsample,
   author = {Mohd Uwaish},
-  title = {FairSample: Fair Sampling for Imbalanced Datasets},
-  year = {2024},
-  url = {https://github.com/yourusername/fairsample}
+  title = {FairSample: Techniques for handling class overlapping problems},
+  year = {2026},
+  url = {https://github.com/mohdUwaish59/fairsample}
 }
 ```
