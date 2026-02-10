@@ -110,19 +110,65 @@ Python 3.8+ with numpy, scikit-learn, scipy, pandas, matplotlib, seaborn
 
 ## Contributing
 
-Contributions welcome! Submit a PR or open an issue.
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Credits & References
+
+FairSample implements techniques from the following research papers:
+
+### Resampling Techniques
+
+**RFCL (Repetitive Forward Class Learning)**
+- Das, B., Krishnan, N. C., & Cook, D. J. (2014). RACOG and wRACOG: Two Probabilistic Oversampling Techniques. *IEEE Transactions on Knowledge and Data Engineering*, 27(1), 222-234.
+
+**EHSO (Evolutionary Hybrid Sampling in Overlap)**
+- Vuttipittayamongkol, P., & Elyan, E. (2020). Neighbourhood-based undersampling approach for handling imbalanced and overlapped data. *Information Sciences*, 509, 47-70.
+
+**NBUS (Neighbourhood-Based Undersampling)**
+- Vuttipittayamongkol, P., & Elyan, E. (2020). Neighbourhood-based undersampling approach for handling imbalanced and overlapped data. *Information Sciences*, 509, 47-70.
+
+**NUS (Neighborhood Undersampling)**
+- Yen, S. J., & Lee, Y. S. (2006). Under-sampling approaches for improving prediction of the minority class in an imbalanced dataset. *Lecture Notes in Computer Science*, 4093, 731-740.
+
+**URNS (Undersampling by Removing Noisy Samples)**
+- Gazzah, S., & Essoukri Ben Amara, N. (2008). New Oversampling Approaches Based on Polynomial Fitting for Imbalanced Data Sets. *Proceedings of the Eighth IAPR International Workshop on Document Analysis Systems*, 139-145.
+
+**SVDD-Based Weighted SMOTE**
+- Kang, Q., Chen, X., Li, S., & Zhou, M. (2017). A Noise-Filtered Under-Sampling Scheme for Imbalanced Classification. *IEEE Transactions on Cybernetics*, 47(12), 4263-4274.
+
+**ODBOT (Overlap Distance-Based Oversampling Technique)**
+- Prabhu, V., & Khare, A. (2021). ODBOT: Overlap Distance-Based Oversampling Technique for Imbalanced Datasets. *Neural Computing and Applications*, 33, 11099-11117.
+
+**OSM (Overlap-based Sampling Method)**
+- Santos, M. S., Soares, J. P., Abreu, P. H., Araujo, H., & Santos, J. (2018). Cross-Validation for Imbalanced Datasets: Avoiding Overoptimistic and Overfitting Approaches. *IEEE Computational Intelligence Magazine*, 13(4), 59-76.
+
+**K-Means Undersampling**
+- Yen, S. J., & Lee, Y. S. (2009). Cluster-based under-sampling approaches for imbalanced data distributions. *Expert Systems with Applications*, 36(3), 5718-5727.
+
+### Theoretical Foundation
+
+This package was developed based on research identifying gaps in overlap-handling evaluation:
+
+- Santos, M. S., Abreu, P. H., Wilk, S., & Santos, J. (2023). On the joint-effect of class imbalance and overlap: a critical review. *Artificial Intelligence Review*, 56(11), 12753-12808.
+
+*Full BibTeX citations available in [CITATIONS.md](CITATIONS.md)*
 
 ## License
 
-MIT License
+MIT License - See [LICENSE](LICENSE) for details
 
 ## Citation
+
+If you use FairSample in your research, please cite:
 
 ```bibtex
 @software{fairsample,
   author = {Mohd Uwaish},
-  title = {FairSample: Techniques for handling class overlapping problems},
-  year = {2026},
-  url = {https://github.com/mohdUwaish59/fairsample}
+  title = {FairSample: Fair Sampling for Imbalanced Datasets},
+  year = {2024},
+  url = {https://github.com/mohdUwaish59/fairsample},
+  version = {1.0.0}
 }
 ```
+
+**Important**: This package implements techniques from various research papers. Please see [CITATIONS.md](CITATIONS.md) for full citations and give proper credit to the original authors of each technique you use.
