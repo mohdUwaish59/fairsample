@@ -150,3 +150,10 @@ REQUIREMENTS_GUIDE.md
 DOCUMENTATION.md
 CITATIONS_TEMPLATE.md
 CREDITS_SUMMARY.md
+APP_QUICK_START.md
+STREAMLIT_APP_COMPLETE.md
+STREAMLIT_APP_README.md
+app.py
+generate_sample_data.py
+run_app.bat
+streamlit-requirements.txt
