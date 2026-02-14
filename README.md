@@ -20,9 +20,9 @@ flowchart LR
     D --> D2[Metrics]
     D --> D3[Performance]
     
-    style A fill:#e1f5fe
-    style F fill:#d4edda
-    style E fill:#fff3cd
+    style A fill:#e1f5
+    style F fill:#d4e
+    style E fill:#e15
 ```
 
 ## Why FairSample?
