@@ -5,8 +5,25 @@ Fair sampling for imbalanced datasets with 14+ resampling techniques and 40+ com
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<img src="public/workflow.png" alt="Workflow" width="1000">
+## Workflow
 
+```mermaid
+flowchart LR
+    A[Imbalanced<br/>Dataset] --> B[Complexity<br/>Analysis]
+    B --> C[Apply<br/>Technique]
+    C --> D[Multi-Dimensional<br/>Audit]
+    D --> E{Evaluation}
+    E -->|N3 ↓<br/>T1 ↓| F[Success]
+    E -->|Poor| C
+    F --> G[Train<br/>Model]
+    D --> D1[Visual]
+    D --> D2[Metrics]
+    D --> D3[Performance]
+    
+    style A fill:#e1f5fe
+    style F fill:#d4edda
+    style E fill:#fff3cd
+```
 
 ## Why FairSample?
 
