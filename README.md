@@ -5,7 +5,7 @@ Fair sampling for imbalanced datasets with 14+ resampling techniques and 40+ com
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<img src="public/workflow.png" alt="Workflow" width="600">
+<img src="public/workflow.png" alt="Workflow" width="1000">
 
 
 ## Why FairSample?
